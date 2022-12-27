@@ -89,6 +89,7 @@ class RichTextEditor extends HTMLElement {
             </div>
         </div>
         <div id="text-input" contenteditable="true"></div>
+        <br><br><br><br><br><br>
         `;
         this.appendChild(container);
     }
