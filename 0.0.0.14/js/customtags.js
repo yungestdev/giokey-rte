@@ -88,7 +88,7 @@ class RichTextEditor extends HTMLElement {
                 <label for="backColor">Highlight Color</label>
             </div>
         </div>
-        <div contenteditable="true"><p id="text-input"></p></div>
+        <div id="text-input" contenteditable="true"></div>
         
         `;
 
