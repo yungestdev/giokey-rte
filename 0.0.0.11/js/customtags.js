@@ -89,9 +89,13 @@ class RichTextEditor extends HTMLElement {
             </div>
         </div>
         <div id="text-input" contenteditable="true"></div>
-        <br><br><br><br><br><br>
+        
         `;
+
+        const barrier = document.createElement("div");
+        barrier.innerHTML = "<br><br><br><br><br><br><br<br><br>";
         this.appendChild(container);
+        this.appendChild(barrier);
     }
 }
 customElements.define("giokey-rte", RichTextEditor);
