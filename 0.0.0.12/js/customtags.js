@@ -93,7 +93,7 @@ class RichTextEditor extends HTMLElement {
         `;
 
         const barrier = document.createElement("div");
-        barrier.innerHTML = "<br><br><br><br><br><br><br<br><br>";
+        barrier.innerHTML = "<br><br><br><br><br><br><br><br><br><br>";
         this.appendChild(container);
         this.appendChild(barrier);
     }
